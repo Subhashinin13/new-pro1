@@ -1,0 +1,29 @@
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    background-color: rgb(0,0,0); /* Fallback color */
+    
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+  }.img{
+    width: 500px;
+    display:flex;
+  }
+  .column {
+    float: left;
+    width: 100%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 30%;
+  }
